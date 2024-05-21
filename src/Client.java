@@ -24,7 +24,7 @@ public class Client {
 
         // Loop for sending messages
         while (true) {
-            System.out.print("Type a message for the server (or type 'exit' to quit): ");
+            System.out.print("Type a equation for the server in the format num+num or num*num (or type 'exit' to quit): ");
             msg = br.readLine();
 
             if (msg.equalsIgnoreCase("exit")) {
